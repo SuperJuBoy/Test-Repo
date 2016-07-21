@@ -5,19 +5,19 @@
 </head>
 <body>
 	<script>
-		document.write("Hello");
+
 		var product = [];
-		for(var i = 1;i < 12; i++){
+		for(var i = 1;i <= 12; i++){
 			document.write("-----------Multiplication Table for----------- " + i);
-			document.write("\n");
-			for(var j = 1;j < 12; i++){
+			document.write("<br>");	
+			for(var j = 1;j <= 12; j++){
 				product[j] = i*j;
-				document.write(i + " times " + j " equals " + product[j]);
-				document.write("\n");
+				document.write(i + " times " + j + " equals " + product[j]);
+				document.write("<br>");	
 			}
-			document.write("\n");
-			document.write("\n");
-			document.write("\n");
+			document.write("<br>");	
+			document.write("<br>");	
+			document.write("<br>");	
 		}	
 	</script>
 </body>
